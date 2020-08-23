@@ -1,0 +1,54 @@
+.sidebar {
+  flex: 0.35;
+  border-right: 1px solid lightgray;
+  flex-direction: column;
+  display: flex;
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.sidebar-header-right {
+  color: #50708f;
+}
+.sidebar-header-right .MuiSvgIcon-root {
+  margin: 0px 5px;
+  font-size: 18px !important;
+}
+.sidebar-search {
+  background-color: #50708f;
+  padding: 10px;
+  color: #50708f;
+}
+.sidebar-search>div {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+  width: auto;
+}
+.sidebar-search>div>input {
+  border: none;
+  padding: 0px;
+  border-radius: 5px;
+}
+.sidebar-search>div>input:focus {
+  outline: none;
+}
+.sidebar-chats {
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+  overflow: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sidebar-chats::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar-chats {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
