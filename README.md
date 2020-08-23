@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Hosting URL: https://whatsapp-clone-c218b.web.app
+
+Project is publicly available at this URL: https://whatsapp-clone-c218b.web.app
 
 ## Available Scripts
 
